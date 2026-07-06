@@ -1,0 +1,22 @@
+body{
+    background-color:#f4f8fc;
+    font-family:Arial,sans-serif;
+    margin:40px;
+}
+
+h1{
+    color:#0056b3;
+    text-align:center;
+}
+
+h2{
+    color:#333;
+}
+
+p{
+    font-size:18px;
+}
+
+li{
+    font-size:18px;
+}
