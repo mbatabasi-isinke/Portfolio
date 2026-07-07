@@ -1,8 +1,10 @@
 body{
-    background-color: #f4f8fc;
-    font-family:Arial,sans-serif;
-    margin:40px;
-}
+        background-color:#f4f8fc;
+            font-family:Arial,sans-serif;
+                margin:0;
+                    padding:30px;
+                    }
+
 
 h1{
     color:#0056b3;
@@ -21,8 +23,10 @@ li{
     font-size:18px;
 }
 .container{
-        background-color: white;
-            padding: 30px;
-                border-radius: 15px;
-                }
-}
+    background-color:white;
+        max-width:900px;
+            margin:30px auto;
+                padding:30px;
+                    border-radius:15px;
+                        box-shadow:0 4px 15px rgba(0,0,0,0.15);
+                        }
