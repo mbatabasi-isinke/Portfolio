@@ -1,5 +1,5 @@
 body{
-    background-color: yellow;
+    background-color: #f4f8fc;
     font-family:Arial,sans-serif;
     margin:40px;
 }
@@ -20,4 +20,9 @@ p{
 li{
     font-size:18px;
 }
-
+.container{
+        background-color: white;
+            padding: 30px;
+                border-radius: 15px;
+                }
+}
