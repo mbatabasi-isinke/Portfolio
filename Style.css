@@ -46,3 +46,10 @@ body{
 p{
     text-align:left;
 }
+.profile{
+        width:160px;
+            height:160px;
+                border-radius:50%;
+                    border:5px solid #0056b3;
+                        object-fit:cover;
+                        }
