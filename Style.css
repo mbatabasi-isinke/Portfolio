@@ -1,3 +1,7 @@
+html{
+        scroll-behavior:smooth;
+        }
+
 body{
         background:#f4f8fc;
             color:#333;
@@ -8,21 +12,28 @@ body{
                                 line-height:1.6;
                                text-align: center;
                             }
+nav{
+        position: sticky;
+            top: 0;
+                background: #0056b3;
+                    padding: 15px;
+                        text-align: center;
+                            z-index: 1000;
+                                box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                                }
 
-                                nav{
-                                    background:#0056b3;
-                                        text-align:center;
-                                            padding:15px;
-                                                margin-bottom:30px;
-                                                }
+                                nav a{
+                                    color: white;
+                                        text-decoration: none;
+                                            margin: 15px;
+                                                font-size: 18px;
+                                                    font-weight: bold;
+                                                    }
 
-                                                nav a{
-                                                    color:white;
-                                                        text-decoration:none;
-                                                            font-weight:bold;
-                                                                margin:0 15px;
-                                                                }
-
+                                                    nav a:hover{
+                                                        color: #ffd700;
+                                                        }
+}
                                                                 h1{
                                                                     color:#0056b3;
                                                                         text-align:center;
@@ -74,7 +85,7 @@ p{
                                                     .skill-card:hover{
                                                         transform:scale(1.05);
                                                         }
-}.project-card{
+.project-card{
         background:white;
             padding:25px;
                 border-radius:15px;
@@ -108,3 +119,16 @@ p{
                                                                                 .btn:hover{
                                                                                     background:#003d80;
                                                                                     }
+footer{
+        background:#0056b3;
+            color:white;
+                text-align:center;
+                    padding:20px;
+                        margin-top:40px;
+                        }
+.typing{
+        font-size:24px;
+            color:#ff5722;
+                font-weight:bold;
+                    margin-bottom:20px;
+                    }
