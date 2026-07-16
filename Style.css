@@ -1,21 +1,28 @@
+:root{
+        --background:#f4f8fc;
+            --text:#333;
+                --primary:#0056b3;
+                    --secondary:#ff5722;
+                        --card:#ffffff;
+                        }
 html{
         scroll-behavior:smooth;
-        }
-
+}
 body{
-        background:#f4f8fc;
-            color:#333;
+        background:var(--background);
+            color:var(--text);
                 font-family:Arial,sans-serif;
                     max-width:800px;
                         margin:0 auto;
                             padding:20px;
                                 line-height:1.6;
-                               text-align: center;
-                            }
+                                    text-align:center;
+                                    }
+
 nav{
         position: sticky;
             top: 0;
-                background: #0056b3;
+                background: var(--card);
                     padding: 15px;
                         text-align: center;
                             z-index: 1000;
@@ -23,7 +30,7 @@ nav{
                                 }
 
                                 nav a{
-                                    color: white;
+                                    color: var(--primary);
                                         text-decoration: none;
                                             margin: 15px;
                                                 font-size: 18px;
@@ -31,17 +38,17 @@ nav{
                                                     }
 
                                                     nav a:hover{
-                                                        color: #ffd700;
+                                                        color: var(--primary);
                                                         }
-}
+
                                                                 h1{
-                                                                    color:#0056b3;
+                                                                    color:var(--primary);
                                                                         text-align:center;
                                                                             font-size:36px;
                                                                             }
 
                                                                             h2{
-                                                                                color:#ff5722;
+                                                                                color:var(--secondary);
                                                                                     font-size:28px;
                                                                                     }
 
@@ -73,7 +80,7 @@ p{
                         }
 
                         .skill-card{
-                            background:white;
+                            background:var(--card);
                                 padding:15px 20px;
                                     border-radius:10px;
                                         box-shadow:0 4px 10px rgba(0,0,0,0.15);
@@ -86,7 +93,7 @@ p{
                                                         transform:scale(1.05);
                                                         }
 .project-card{
-        background:white;
+        background:var(--card);
             padding:25px;
                 border-radius:15px;
                     box-shadow:0 5px 15px rgba(0,0,0,.15);
@@ -96,7 +103,7 @@ p{
                                 }
 
                                 .project-card h3{
-                                    color:#0056b3;
+                                    color:var(--primary);
                                         font-size:30px;
                                         }
 
@@ -109,8 +116,8 @@ p{
                                                     display:inline-block;
                                                         margin-top:15px;
                                                             padding:12px 25px;
-                                                                background:#0056b3;
-                                                                    color:white;
+                                                                background:var(--card);
+                                                                    color:var(--primary);
                                                                         text-decoration:none;
                                                                             border-radius:8px;
                                                                                 font-weight:bold;
@@ -120,15 +127,15 @@ p{
                                                                                     background:#003d80;
                                                                                     }
 footer{
-        background:#0056b3;
-            color:white;
+        background:var(--card);
+            color:var(--primary);
                 text-align:center;
                     padding:20px;
                         margin-top:40px;
                         }
 .typing{
         font-size:24px;
-            color:#ff5722;
+            color:var(--secondary);
                 font-weight:bold;
                     margin-bottom:20px;
                     }
@@ -136,7 +143,7 @@ footer{
         position:fixed;
             bottom:20px;
                 right:20px;
-                    background:#0056b3;
+                    background:var(--primary);
                         color:white;
                             width:50px;
                                 height:50px;
@@ -163,7 +170,7 @@ footer{
 blockquote{
         font-size:22px;
             font-style:italic;
-                color:#0056b3;
+                color:var(--primary);
                     border-left:5px solid #0056b3;
                         padding-left:20px;
                             margin:40px auto;
